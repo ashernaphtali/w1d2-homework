@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    width: 50vw;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+
+   }
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: xx-small;
+    padding-left: 100px;
+    
+  
+    
+}
+/*attempting to get text on Theater photo*/
+.content {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+
+}
+
+.subhead {
+    width: 50vh;
+    height: 3vh;
+    align-self: center;
+    margin: 2px;
+    background-color: rgb(214, 209, 209);
+    margin-top: 50px;
+    
+}
+.schedule1 {
+    border-bottom: 3px solid red;
+    width: 50vh;
+    height: 10vh;
+    align-self: center;
+    margin: 2px;
+    font-size: small;
+    display: flex; 
+   
+}
+
+.info {
+    width: 30vh;
+}
+
+button {
+    width: 9vh;
+    height: 3.5vh;
+    font-size: xx-small;
+    background-color: orange;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+
+img.small {
+    width: 8vh;
+    height: 8vh;
+    padding: 5px;
+}
+/*.event {
+    width: 50vh;
+    height: 10vh;
+    display: flex;
+    align-items: stretch;
+}
+
+.first {
+    width: 50vh;
+    height: 10vh;
+    display: flex;
+    align-items: stretch;
+}*/
+
+
+
+
+
+
+
